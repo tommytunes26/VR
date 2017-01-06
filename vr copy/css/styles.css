@@ -1,0 +1,125 @@
+
+img {
+  display: block;
+  width: 100%;
+}
+
+html, body {
+    max-width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background-color: #101010;
+}
+
+p {
+    font-size: 16pt;
+    text-shadow: 2px 2px 10px #000;
+}
+
+
+
+/*For mobile browser support--------------*/
+@media only screen and (max-width: 550px) {
+    li {
+        visibility: hidden;
+    }
+    
+    .parallaxcontainer {
+        height: auto;
+        min-height: 100% !important; 
+    }
+    
+    header {
+        position: relative;
+        height: auto;
+        min-height: 100% !important;     
+        background-image: url(../pics/mobile.jpg);
+        background-size: cover;
+    }
+}
+    
+    
+.parallaxcontainer {
+  position: relative;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0%;
+    max-width: 1800px;
+
+}
+
+.center{
+  position: absolute;
+  top: 55%;
+    bottom: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+    
+.scene {
+  padding: 0;
+  margin: 0;
+    overflow: hidden;
+}
+
+.fill {
+  position: absolute;
+  bottom: 5%;
+  right: 5%;
+  left: 5%;
+  top: 5%;
+}
+
+.expand-width {
+  width: 100%;
+}
+
+.border {
+  border: 2px dashed #00FFAA;
+}
+
+.aspect {
+  opacity: 1;
+}
+
+.layer:nth-child(1) {
+  opacity: 1;
+}
+.layer:nth-child(1) button {
+  -webkit-transform: rotate(150deg);
+}
+
+.layer:nth-child(2) {
+  opacity: 1;
+}
+.layer:nth-child(2) button {
+  -webkit-transform: rotate(120deg);
+}
+
+.layer:nth-child(3) {
+  opacity: 1;
+}
+.layer:nth-child(3) button {
+  -webkit-transform: rotate(90deg);
+}
+
+.layer:nth-child(4) {
+  opacity: 1;
+}
+.layer:nth-child(4) button {
+  -webkit-transform: rotate(60deg);
+}
+
+.layer:nth-child(5) {
+  opacity: 1;
+}
+.layer:nth-child(5) button {
+  -webkit-transform: rotate(30deg);
+}
+
+.layer:nth-child(6) {
+  opacity: 1;
+}
+.layer:nth-child(6) button {
+}

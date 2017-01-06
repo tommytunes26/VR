@@ -1,0 +1,115 @@
+<!doctype html>
+
+<!--
+This was a 2 person team project.
+My primary role was the site structure, 
+transitions, styling and scripting of all "vr" pages.
+-->
+
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>VR Headsets</title>
+<!-- Styles -->
+<script src="https://code.jquery.com/jquery-2.2.1.min.js"></script>
+
+
+<!-- Bootstrap Core CSS Start -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Plugin CSS -->
+    <link href="css/magnific-popup.css" rel="stylesheet">
+    <!-- Theme CSS -->
+    <link href="css/creative.min.css" rel="stylesheet">
+<!-- Bootstrap Core CSS End -->
+
+<!-- Parallax CSS/JS Start -->
+    <script src="js/parallax.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/styles.css"/>
+<!-- Parallax CSS/JS CSS End -->
+
+
+</head>
+<html>
+<body id="page-top">
+
+
+<!-- Bootstrap Nav Bar Start -->
+        <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-haspopup="true" aria-expanded="false" id="dropdownMenuButton">
+                        <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                    </button>
+                    <a class="navbar-brand page-scroll" href="#page-top">Virtual Reality</a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a class="page-scroll" href="vr-htc.html">HTC Vive</a>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="vr-oc.html">Oculus Rift</a>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="vr-form.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container-fluid -->
+        </nav>
+<!-- Bootstrap Nav Bar End -->
+
+
+
+    <header>
+<!-- Parallax Effect Start -->
+        
+        <div id="container" class="parallaxcontainer">
+            <ul id="scene" class="scene">
+                <li class="layer" data-depth="0.10"><img src="pics/1.png"></li>
+
+                <li class="layer" data-depth="0.15"><img src="pics/7.png"></li>            
+                <li class="layer" data-depth="0.20"><img src="pics/6.png"></li>
+                <li class="layer" data-depth="0.35"><img src="pics/5.png"></li>
+                <li class="layer" data-depth="0.50"><img src="pics/4.png"></li>
+                <li class="layer" data-depth="0.10"><img src="pics/3.png"></li>
+                <li class="layer" data-depth="0.10"><img src="pics/2.png"></li>
+                <li class="layer" data-depth="0.00"><img src="pics/8.png"></li> 
+                <li class="layer" data-depth="0.90"><img src="pics/9.png"></li>             
+            </ul>
+
+<!-- Homepage button/text Start -->
+                <div class="center">
+                <p>Your virtual reality experience starts here!</p>
+  
+                <a href="vr-htc.html" class="btn btn-primary btn-l ">&nbsp;&nbsp;&nbsp;HTC Vive&nbsp;&nbsp;&nbsp;</a>
+                <a href="vr-oc.html" class="btn btn-primary btn-l ">Oculus Rift</a>
+                </div>
+    </header>
+<!-- Homepage button/text End -->
+
+        </div>
+        <script>
+            var scene = document.getElementById('scene');
+            var parallax = new Parallax(scene);
+        </script>
+<!-- Parallax Effect End -->
+    <div style="position: absolute; bottom: 10px; left: 0; right: 0; text-align: center;"><a href="../index.html">Back to Welcome Page</a></div>
+
+
+
+
+
+<!-- Scripts -->
+<script src="https://code.jquery.com/jquery-2.2.1.min.js"></script>
+<script src="js/jquery.smoothState.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
